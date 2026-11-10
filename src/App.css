@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #222;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #174a7e;
+}
+
+h2 {
+  color: #174a7e;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #d5dfeb;
+  border-radius: 8px;
+}
+
+.patient {
+  padding: 15px;
+  margin: 15px 0;
+  background: #eef5fc;
+  border: 1px solid #c6d9ee;
+  border-radius: 6px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 14px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  background: #1769aa;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #104c7c;
+}
+
+.remove-btn {
+  background: #c62828;
+}
+
+.remove-btn:hover {
+  background: #8e1717;
+}
